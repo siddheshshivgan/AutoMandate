@@ -33,7 +33,7 @@ function MandateFormFiller() {
   
       // Add a font for name (use built-in fonts)
       const pages = pdfDoc.getPages();
-      const mandateType = pdfFile.name.includes("BSE") ? 'BSE' : 'NJ';
+      const mandateType = pdfFile.name.includes("NJ") ? 'NJ' : 'NSE';
       const firstPage = pages[0];
   
       // Add the name
